@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-// var data = data.toString();
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -88,14 +87,6 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, function (err) {
-//         err ? console.log(err) : console.log("Great job, your README file has been created!!")
-//     })
-// };
-
-// writeToFile();
-
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -108,35 +99,22 @@ function writeToFile(fileName, data) {
 
 
 // TODO: Create a function to initialize app
-// function init() {
-//     inquirer.prompt(questions)
-//     .then (answer => writeToFile(generateMarkdown(answer)))
-// }
-
-async function init() {
+async function initialize() {
     try {
 
-        // Prompt Inquirer questions
         const userResponses = await inquirer.prompt(questions);
         console.log("Your responses: ", userResponses);
         console.log("Thank you for your responses! Fetching your GitHub data next...");
     
-        // Call GitHub api for user info
-        // const userInfo = await api.getUser(userResponses);
-        // console.log("Your GitHub user info: ", userInfo);
-    
-        // Pass Inquirer userResponses and GitHub userInfo to generateMarkdown
         console.log("Generating your README next...")
         const markdown = generateMarkdown(userResponses);
         console.log(markdown);
     
-        // Write markdown to file
-        await writeToFile('README.md', markdown);
+        await writeToFile('testREADME.md', markdown);
 
     } catch (error) {
         console.log(error);
     }
 };
 
-// Function call to initialize app
-init();
+initialize();

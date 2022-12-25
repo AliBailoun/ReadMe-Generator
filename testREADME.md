@@ -1,4 +1,4 @@
-# README.md Generator
+# l
 ![License Badge](https://shields.io/badge/license-MIT License-green)
 ## Table of Contents
 1. [Description](#description)
@@ -10,11 +10,11 @@
 7. [Questions](#questions)
 
 ## Description
-This is a simplified way of creating a README.md file, simply answer the questions the required questions, and a professional README.md file will be created for you!
+l
 ## Installation
 undefined
 ## Usage
-Creating README.md files quickly without sacrificing on quality
+l
 ## Contributing
 undefined
 ## Tests
@@ -23,5 +23,5 @@ undefined
 Please see  to get detailed information for this license
 
 ## Questions
-You can find me [HERE](https://github.com/undefined) on Github
-You can email me at undefined if you have any additional questions.
+You can find me [HERE](https://github.com/AliBailoun) on Github
+You can email me at alibailoun1982@gmail.com if you have any additional questions.
