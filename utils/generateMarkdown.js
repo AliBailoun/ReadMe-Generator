@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   let badge = "";
 
@@ -12,7 +13,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  let licenseLink;
+  let licenseLink = '';
 
   switch (license) {
     case "MIT":
@@ -71,24 +72,26 @@ function generateMarkdown(data) {
   markdown += data.description + "\n";
 
   markdown += "## " + sections[1] + "\n";
-  markdown += data.install + "\n";
+  markdown += data.installation + "\n";
 
   markdown += "## " + sections[2] + "\n";
   markdown += data.usage + "\n";
 
   markdown += "## " + sections[3] + "\n";
-  markdown += data.guidelines + "\n";
+  markdown += data.contributing + "\n";
 
   markdown += "## " + sections[4] + "\n";
-  markdown += data.test + "\n";
+  markdown += data.tests + "\n";
 
   markdown += renderLicenseSection(data.license) + "\n";
 
   markdown += "## " + sections[6] + "\n";
-  markdown += "You can find me https://github.com/AliBailoun on Github\n";
-  markdown += "You can email me at alibailoun1982@gmail.com if you have any additional questions.\n"
+  markdown += "You can find me [here](https://github.com/" + data.github + ") on Github\n";
+  markdown += "You can email me at " + data.email + " if you have any additional questions.\n"
 
   return markdown;
 }
 
 module.exports = generateMarkdown;
+
+

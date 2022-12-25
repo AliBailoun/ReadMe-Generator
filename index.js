@@ -18,6 +18,28 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'tests',
+        message: 'Please state how your application can be tested',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please enter a valid answer.")
+            } return true;
+
+        }
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'How would you like to contribute to this project?',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please enter a valid answer.")
+            } return true;
+
+        }
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Give your project a brief description',
         validate: function (answer) {
@@ -73,7 +95,7 @@ const questions = [
         validate: function (answer) {
             let input = answer.toLowerCase();
             if (input == "yes") {
-                console.log(", please email me at aliforps05@gmail.com")
+                console.log(", please email me at alibailoun1982@gmail.com")
                 return true;
             } else if (input == "no") {
                 console.log(", Great!")
@@ -81,6 +103,29 @@ const questions = [
             } else {
                 console.log(", Please delete your previous answer and choose between yes or no")
             } return false;
+
+        },
+
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your github username',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please enter a valid answer.")
+            } return true;
+
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Please enter a valid answer.")
+            } return true;
 
         }
     }
@@ -90,9 +135,9 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
-          return console.log(err);
+            return console.log(err);
         }
-      
+
         console.log("Success! Your README.md file has been generated")
     });
 }
@@ -105,11 +150,11 @@ async function initialize() {
         const userResponses = await inquirer.prompt(questions);
         console.log("Your responses: ", userResponses);
         console.log("Thank you for your responses! Fetching your GitHub data next...");
-    
+
         console.log("Generating your README next...")
         const markdown = generateMarkdown(userResponses);
         console.log(markdown);
-    
+
         await writeToFile('testREADME.md', markdown);
 
     } catch (error) {

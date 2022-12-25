@@ -10,7 +10,7 @@
 7. [Questions](#questions)
 
 ## Description
-This is a simplified way of creating a README.md file, simply answer the questions the required questions, and a professional README.md file will be created for you!
+This is a simplified way of creating a README.md file, simply answer the required questions, and a professional README.md file will be created for you!
 ## Installation
 undefined
 ## Usage
