@@ -149,15 +149,11 @@ function writeToFile(fileName, data) {
 async function initialize() {
     try {
 
-        // const userResponses = await inquirer.prompt(questions);
-        // console.log("Your responses: ", userResponses);
-        // console.log("Thank you for your responses! Fetching your GitHub data next...");
+        const userResponses = await inquirer.prompt(questions);
 
-        // console.log("Generating your README next...")
-        // const markdown = generateMarkdown(userResponses);
-        // console.log(markdown);
+        const markdown = generateMarkdown(userResponses);
 
-        await writeToFile('testREADME.md', markdown);
+        writeToFile('testREADME.md', markdown);
 
     } catch (error) {
         console.log(error);
