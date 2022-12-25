@@ -86,7 +86,7 @@ function generateMarkdown(data) {
   markdown += renderLicenseSection(data.license) + "\n";
 
   markdown += "## " + sections[6] + "\n";
-  markdown += "You can find me [here](https://github.com/" + data.github + ") on Github\n";
+  markdown += "You can find me [here](https://github.com/" + data.github + ") on Github.\n";
   markdown += "You can email me at " + data.email + " if you have any additional questions.\n"
 
   return markdown;
