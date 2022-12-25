@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
   let licenseSect = "";
   if (license != "None") {
     licenseSect += "## License\n"
-    licenseSect += "Please see " + "https://http.cat/503" + " to get detailed information for this license\n";
+    licenseSect += "Please see " + license + " to get detailed information for this license\n";
   }
 
   return licenseSect;
