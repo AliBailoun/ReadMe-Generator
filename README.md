@@ -29,7 +29,8 @@ You are more than welcome to test  my application and send any feedback to the i
 ## Link to the repo:
 https://github.com/AliBailoun/ReadMe-Generator
 ## Link to the youtube video:
-
+https://youtu.be/2gn3hO79seQ
+Please note that this video is only watchable through this link and this link only, that way only certain people can watch it and edx doesn't strike my videos.
 ## Questions
 You can find me [HERE](https://github.com/AliBailoun) on Github. 
 You can email me at alibailoun1982@gmail.com if you have any additional questions.
