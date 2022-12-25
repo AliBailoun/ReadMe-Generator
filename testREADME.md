@@ -10,13 +10,13 @@
 7. [Questions](#questions)
 
 ## Description
-alright
+hello there
 ## Installation
-nothing 
+hello
 ## Usage
-for the video
+hello there
 ## Contributing
-this is my test run
+this is a test run for the video
 ## Tests
 hello
 ## License
@@ -25,3 +25,4 @@ Please see https://http.cat/503 to get detailed information for this license
 ## Questions
 You can find me [here](https://github.com/kingarthur) on Github.
 You can email me at kingarthur@gmail.com if you have any additional questions.
+
