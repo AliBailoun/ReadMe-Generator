@@ -35,4 +35,4 @@ Please note that this video is only watchable through this link and this link on
 You can find me [HERE](https://github.com/AliBailoun) on Github. 
 You can email me at alibailoun1982@gmail.com if you have any additional questions.
 ## License:
-This part of the project is under maintenance.
+Not sure why the license is displayed correctly whe we render the page with the page link, but not on this repo page. (It works fine with the page link: https://alibailoun.github.io/ReadMe-Generator/)
