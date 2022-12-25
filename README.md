@@ -23,5 +23,5 @@ undefined
 Please see  to get detailed information for this license
 
 ## Questions
-You can find me [HERE](https://github.com/undefined) on Github
-You can email me at undefined if you have any additional questions.
+You can find me [HERE](https://github.com/AliBailoun) on Github
+You can email me at alibailoun1982@gmail.com if you have any additional questions.
