@@ -1,4 +1,4 @@
-# hello this is my video
+# this is a test run for the video
 ![License Badge](https://shields.io/badge/license-MIT License-green)
 ## Table of Contents
 1. [Description](#description)
@@ -10,18 +10,18 @@
 7. [Questions](#questions)
 
 ## Description
-no
+alright
 ## Installation
-easy dont worry
+nothing 
 ## Usage
-depends
+for the video
 ## Contributing
-please watch the video
+this is my test run
 ## Tests
-can be tested
+hello
 ## License
 Please see https://http.cat/503 to get detailed information for this license
 
 ## Questions
-You can find me [here](https://github.com/alibailoun) on Github.
-You can email me at noemail if you have any additional questions.
+You can find me [here](https://github.com/kingarthur) on Github.
+You can email me at kingarthur@gmail.com if you have any additional questions.
