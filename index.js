@@ -104,7 +104,7 @@ const questions = [
                 console.log(", Please delete your previous answer and choose between yes or no")
             } return false;
 
-        },
+        }, 
 
     },
     {
