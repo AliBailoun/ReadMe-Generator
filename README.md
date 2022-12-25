@@ -6,8 +6,9 @@
 3. [Usage](#usage)
 4. [Contributing](#contributing)
 5. [Tests](#tests)
-6. [License](#license)
+6. [Link](#link-to-the-repo)
 7. [Questions](#questions)
+8. [License](#license)
 
 ## Description
 This is a simplified way of creating a README.md file, just answer the required questions, and a professional README.md file will be generated for you!
@@ -21,13 +22,13 @@ Steps to run this application:
 ## Usage
 Creating README.md files quickly without sacrificing on quality
 ## Contributing
-Any ideas on contributionsare much appreciated! You can send them to the issues section!
+Any ideas on contributions are much appreciated! You can send them to the issues section!
 ## Tests
 You are more than welcome to test  my application and send any feedback to the issues section
 ## Link to the repo:
 https://github.com/AliBailoun/ReadMe-Generator
-
-
 ## Questions
 You can find me [HERE](https://github.com/AliBailoun) on Github. 
 You can email me at alibailoun1982@gmail.com if you have any additional questions.
+## License:
+This part of the project is under maintenance.
