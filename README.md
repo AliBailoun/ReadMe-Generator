@@ -24,9 +24,10 @@ Creating README.md files quickly without sacrificing on quality
 Any ideas on contributionsare much appreciated! You can send them to the issues section!
 ## Tests
 You are more than welcome to test  my application and send any feedback to the issues section
-## License
+## Link to the repo:
+https://github.com/AliBailoun/ReadMe-Generator
 
 
 ## Questions
-You can find me [HERE](https://github.com/AliBailoun) on Github
+You can find me [HERE](https://github.com/AliBailoun) on Github. 
 You can email me at alibailoun1982@gmail.com if you have any additional questions.
